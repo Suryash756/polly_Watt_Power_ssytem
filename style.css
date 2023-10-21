@@ -27,6 +27,10 @@ h1{
     font-weight:bold;
     margin:40px;
     border:solid;
+    border-color: black;
+    color: black;
+    text-decoration:none;
+    font:black;
     background: #d9a7c7;  /* fallback for old browsers */
     background: #CB356B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
@@ -45,3 +49,6 @@ background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-2
 background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
+ a{
+    text-decoration: none;
+ }
